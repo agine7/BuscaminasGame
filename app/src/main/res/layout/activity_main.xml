@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/btnPlay"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+      android:layout_centerHorizontal="true"
+        android:layout_marginTop="260dp"
+        android:src="@android:drawable/ic_media_play"
+        app:tint="@color/black" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="370dp"
+        android:text="START NOW"
+        android:textColor="@android:color/black"
+        android:textSize="17dp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:text="Buscaminas"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="45dp"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/white"/>
+
+    <Button
+        android:id="@+id/btnHelp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="550dp"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/white"
+        android:text="HELP"
+        android:textSize="17dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:backgroundTint="@android:color/black"/>
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:layout_marginTop="610dp"
+        android:layout_centerHorizontal="true"
+        android:text="EXIT"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@android:color/black"/>
+
+</RelativeLayout>

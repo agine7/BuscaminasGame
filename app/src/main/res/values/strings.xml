@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BuscaminasGame</string>
+    <string name="help">El juego consiste en despejar todas las casillas de una pantalla que no oculten una mina. Si se descubre una casilla con una mina se pierde la partida.</string>
+
+    <string name="temps">Time:</string>
+    <string name="temps2"></string>
+</resources>
